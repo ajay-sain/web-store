@@ -1,0 +1,113 @@
+.full-width{
+    width: 70%;
+}
+
+.searchbox {
+    z-index: 2022;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background: #e5e8ec;
+    width: 70%;
+    /* box-shadow: 0 5px 20px 0 rgba(11,7,110,.04); */
+    /* overflow: hidden; */
+    /* border: 1px solid gray; */
+}
+
+.catagory-container {
+    position: relative;
+    padding: 0px 30px 0px 20px;
+    background: #dde1e7;
+    height: 100%;
+    color: #575757;
+    /* border-right: 1px solid #c6c7d1; */
+}
+
+.catagory-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 6px;
+    width: 6px;
+    border-bottom: 3px solid #575757;
+    border-right: 3px solid #575757;
+    rotate: calc(45deg);
+    transform: translate(-120%, 40%);
+}
+
+
+.catagories {
+    position: absolute;
+    background-color: #ffffff;
+    display: block;
+    top: 130%;
+    left: 2.5%;
+    z-index: 1;
+    width: 250px;  
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 5px 20px 0 rgba(11,7,110,.2);
+}
+
+.catagories::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -2;
+    top:0%;
+    left: 10%;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    rotate: calc(45deg);
+    transform: translate(-120%, 40%);
+}
+
+.catagories > li {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.action-container {
+    position: relative;
+    height: 100%;
+    width: 700%;
+}
+
+.input-container {
+    background: transparent;
+    height: 100%;
+    border: none;
+    padding: 0 70px 0 20px;
+    margin: 0;
+    min-width: 100%;
+    font-size: 17px;
+    color: #575757;
+}
+
+.search-action {
+    position: absolute;
+    z-index: 2023;
+    height: 98%;
+    width: 54px;
+    background: transparent;
+    border: none;
+    color: rgb(22, 54, 76);
+    right: 0;
+    top: 0;
+    /* background: #dde1e7; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-action > img{
+    margin: 10%;
+    height: 65%;
+    width: 65%;
+}
