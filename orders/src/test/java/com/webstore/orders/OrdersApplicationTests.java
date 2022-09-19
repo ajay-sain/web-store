@@ -1,12 +1,12 @@
-package com.webStore.userMgmt;
+package com.webstore.orders;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-class UserMgmtApplicationTests {
+@SpringBootTest
+class OrdersApplicationTests {
 
-//	@Test
+	@Test
 	void contextLoads() {
 	}
 

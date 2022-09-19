@@ -1,12 +1,12 @@
-package com.webStore.userMgmt;
+package com.webstore.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-class UserMgmtApplicationTests {
+@SpringBootTest
+class ProductApplicationTests {
 
-//	@Test
+	@Test
 	void contextLoads() {
 	}
 
