@@ -1,9 +1,7 @@
 package com.webstore.product.model;
 
 public enum ProductType {
-    MOBILES,FASHION,
+    FASHION,GROCERY,
     ELECTRONICS, BEAUTY,
-    HOME_AND_FURNITURE,
-    APPLIANCES,TRAVEL,
-    GROCERY
+    HOME, TOYS,
 }

@@ -3,17 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'material-icons/iconfont/material-icons.css';
-import "@fontsource/roboto";
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
-    document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement
 );
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-            <App />
+        <App />
         </BrowserRouter>
     </React.StrictMode>
 );
